@@ -1,0 +1,39 @@
+.form-login {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-login label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: var(--font-md);
+  color: var(--gray-color);
+}
+
+.form-checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-top: 32px;
+}
+.form-login .form-checkbox input {
+  width: 16px;
+  height: 16px;
+  padding: 8px 8px 8px 0;
+  cursor: pointer;
+}
+
+.form-login .form-checkbox label {
+  font-weight: 400;
+  font-size: var(--font-md);
+  line-height: 24px;
+  color: var(--gray-1-color);
+}
+
+p {
+  margin: 0;
+  margin-top: 32px;
+  padding: 8px 8px 8px 0;
+  color: var(--gray-1-color);
+}

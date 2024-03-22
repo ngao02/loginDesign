@@ -1,0 +1,44 @@
+.pw-check {
+  display: none;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  right: 8px;
+  position: absolute;
+  cursor: pointer;
+}
+.pw-check-1 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  right: 8px;
+  position: absolute;
+  cursor: pointer;
+}
+.title-pw {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-login ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  list-style-position: inside;
+  gap: 8px;
+}
+
+.form-login li {
+  color: rgba(102, 102, 102, 0.6);
+  font-size: var(--font-md-1);
+  line-height: 21px;
+}
+li::marker {
+  font-size: 20px;
+}

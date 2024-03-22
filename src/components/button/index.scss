@@ -1,0 +1,33 @@
+.btn-submit {
+  margin-top: 32px;
+  width: 256px;
+  height: 100px;
+  display: grid;
+  gap: 8px;
+}
+.btn-submit button {
+  width: 256px;
+  height: 64px;
+  padding: 15px 31px 16px 31px;
+  border-radius: 32px;
+  background: var(--black-color);
+  color: var(--white-color);
+  opacity: 0.25;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  align-items: center;
+  cursor: pointer;
+}
+.btn-submit p {
+  margin: 0;
+  padding: 0;
+  color: var(--gray-1-color);
+  font-size: var(--font-md);
+  font-weight: 400;
+  line-height: 24px;
+  padding: 2px;
+}
+.btn-submit p > a {
+  color: var(--black-color);
+}
